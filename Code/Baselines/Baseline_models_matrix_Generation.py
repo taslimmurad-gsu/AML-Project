@@ -62,7 +62,7 @@ temp_length = min_width*min_height+1
 temp_matrix = np.zeros((len(onlyfiles),min_width*min_height))
 
 for i in range(len(onlyfiles)):
-#    print("i = ",i)
+    print("i = ",i)
     image_path = dataset_path + onlyfiles[i]
     
     dataset= pydicom.read_file(image_path)
@@ -86,6 +86,6 @@ for i in range(len(onlyfiles)):
     
 
 # Write to the pdf
-df = pd.DataFrame(temp_matrix)
-
-df.to_csv (r'D:/University/Ph.D/Advanced Machine Learning/Project/Code/Preprocessed_Original.csv', index = False, header=True)
+#df = pd.DataFrame(temp_matrix)
+#
+#df.to_csv (r'D:/University/Ph.D/Advanced Machine Learning/Project/Code/Preprocessed_Original.csv', index = False, header=True)
