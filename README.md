@@ -8,3 +8,5 @@ In the code folder, there is a folder with the name "baselines", which contains 
 For the dimensionality reduction, PCA is performed and 20 components are taken. The values for PCA can be checked in a figure with name "pca components.png" in the Dataset_Statistics folder.
 
 For data preprocessing, we plot Histograms to evaluate the distribution of classes.
+
+In Dataset_Statistics folder, you can find the visualization of some of the features in the dataset.
