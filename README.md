@@ -10,3 +10,5 @@ For the dimensionality reduction, PCA is performed and 20 components are taken. 
 For data preprocessing, we plot Histograms to evaluate the distribution of classes.
 
 In Dataset_Statistics folder, you can find the visualization of some of the features in the dataset.
+
+To run Faster rcnn, please refer to FRCNN_obj_detection.ipynb. It would require help_files folder to run this notebook successfully.
